@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'pageflow', '~> 12.x'
+  spec.add_dependency 'pageflow', '>= 12', '< 16'
   spec.add_dependency 'pageflow-public-i18n', '~> 1.12.x'
   spec.add_dependency 'rails'
 
